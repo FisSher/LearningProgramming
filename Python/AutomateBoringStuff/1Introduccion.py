@@ -1,3 +1,4 @@
+#Programa basico
 nombre = input("Escribe tu nombre: ")
 print("Hola " + nombre)
 #Consultar la cantidad de letras del nombre usando len()
