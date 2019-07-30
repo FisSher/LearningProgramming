@@ -1,6 +1,6 @@
 '''while True:  #Siempre pasa esto
     name = input("Ingrese usuario: ") #Pido un usuario
-    if name=="Facundo": #Si el usuario es Facundo entonces va a pedir la contraseña, sino vuelve a pedir usuario
+    if name=="Fish": 
         passwd=input("Ingrese contraseña: ") #Pide contraseña
         if passwd=="123": #Si la contraseña es 123 entonces te deja pasar
             print("Bienvenido")
@@ -12,16 +12,15 @@
         print("Usuario incorrecto") #Si el usuario es incorrecto
         continue #Continue te devuelve al principio del loop'''
 
-#puedo intentar hacer uno con while , if , elif y else?
 
 while True:
     country = input("Ingrese su pais de origen: ")
     if country=="Argentina":
             print("Bienvenido/a a casa")
     elif country=="Chile":
-        print("Bienvenido, ctm")
+        print("Bienvenido a Chile")
     elif country=="Uruguay":
-        print("Bienvenido.El mate es argentino")
+        print("Bienvenido a Uruguay")
     else:
         passport= input("ingrese su número de pasaporte:")
         if passport!="123":
@@ -29,5 +28,4 @@ while True:
             continue
         else:
             print("Bienvenido/a a Argentina")
-    break #Arregla la identacion en todo, esta desordenada, no uses espacios, usa TAB para mas facilidad
-        #Estoy intentando entender el FOR.
+    break 
