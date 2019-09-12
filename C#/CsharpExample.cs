@@ -9,7 +9,7 @@ namespace SeleniumTest
     {
         static void Main(string[] args)
         {
-            System.Environment.SetEnvironmentVariable("geckodriver.exe", "D:\\Python");
+            System.Environment.SetEnvironmentVariable("geckodriver.exe", "..");
             IWebDriver driver = new FirefoxDriver();
             driver.Navigate().GoToUrl("http://www.google.com.ar");
             /*driver.Manage().Window.Maximize();
