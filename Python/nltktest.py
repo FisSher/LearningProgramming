@@ -8,7 +8,7 @@ def filtrarPalabras(tokens, stopwords):
     return tokens
     
 
-plano = open(r'D:\Programming\Python\Cuento_Policial.txt','rb')
+plano = open(r'Cuento_Policial.txt','rb')
 texto = plano.read().decode('utf-8')
 tokens = [t for t in texto.split()]
 sr = stopwords.words('spanish')
